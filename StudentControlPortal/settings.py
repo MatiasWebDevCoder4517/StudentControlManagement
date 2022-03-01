@@ -41,13 +41,13 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     ##
-    # 'base',
+    'base',
 
     'rest_framework',
     "corsheaders",
 ]
 
-""" AUTH_USER_MODEL = 'base.User' """
+AUTH_USER_MODEL = 'base.User'
 
 MIDDLEWARE = [
 
